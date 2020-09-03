@@ -11,8 +11,11 @@
     <body>
         
         <div class="top">
+            <div class="app-name">The Budgety App</div>
             <div class="budget">
+               
                 <div class="budget__title">
+                    
                     Available Budget in <span class="budget__title--month">%Month%</span>:
                 </div>
                 
@@ -37,7 +40,7 @@
 
             <div class= "help-btn"><i class="material-icons" style="font-size:30px;color: yellow; opacity: 0.8;">help</i></div>
             <div class= "instructions">
-                <p>
+                <p> This is a budgety app to keep track of all your monthly expenses and income.
                     <ul>
                         <li>First, select '+''  for income or '-' for an expense item from the dropdown menu.</li>
                         <li>Give a description in the "Add Description" field of the income or the expense you want to store.</li>
@@ -55,11 +58,12 @@
         <div class="bottom">
             <div class="add">
                 <div class="add__container">
-                    <select class="add__type">
+                    <label for="item-category">Select an item type:    </label>
+                    <select class="add__type " id="item-category">
                         <option value="inc" selected>Income: +</option>
                         <option value="exp">Expenses: -</option>
                     </select>
-                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="text" class="add__description " placeholder="Add description">
                     <input type="number" class="add__value" placeholder="Value">
                     <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
                 </div>

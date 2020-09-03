@@ -7,7 +7,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.app-name{
+    font-size: 50px;
+    margin: 10px 30px;
+    color: #2fd1fa;
+    position: absolute;
+    left: 0;
+    text-shadow: 2px 2px 2px black;
+}
+.app-name:hover{
+    transform: scale(0.5);
+    transform: translate(2px,2px);
+}
 .clearfix::after {
     content: "";
     display: table;
@@ -171,7 +182,11 @@ body {
 
 .add__type:focus,
 .add__description:focus,
-.add__value:focus {
+.add__value:focus,
+.add__type:hover,
+.add__description:hover,
+.add__value:hover
+{
     outline: none;
     border: 1px solid #28B9B5;
 }
