@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
         <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
         <title>Budgety</title>
     </head>
@@ -33,6 +34,20 @@
                     </div>
                 </div>
             </div>
+
+            <div class= "help-btn"><i class="material-icons" style="font-size:30px;color: yellow; opacity: 0.8;">help</i></div>
+            <div class= "instructions">
+                <p>
+                    <ul>
+                        <li>First, select '+''  for income or '-' for an expense item from the dropdown menu.</li>
+                        <li>Give a description in the "Add Description" field of the income or the expense you want to store.</li>
+                        <li>Give a value of the amount of the income or expense and click enter or the button on the right of the "Value" field.</li>
+                        <li>The app will show your budget, the item will be added in the appropraiate section.</li>
+                        <li>Once an item is added, if you wish to remove it, the delete button appears by hovering over it.</li>
+                    </ul>
+                </p>
+             
+            </div>
         </div>
         
         
@@ -56,15 +71,13 @@
                     
                     <div class="income__list">
                        
-                        <!--
+                        <!-- 
                         <div class="item clearfix" id="income-0">
                             <div class="item__description">Salary</div>
                             <div class="right clearfix">
                                 <div class="item__value">+ 2,100.00</div>
                                 <div class="item__delete">
-                                    <button class="item__delete--btn">
-                                        <i class="ion-ios-close-outline"></i>
-                                    </button>
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
                                 </div>
                             </div>
                         </div>
